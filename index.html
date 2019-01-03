@@ -2,6 +2,61 @@
     <head>
         <title>Big Industry Procurement | IndustryRider</title>
         <style>
+         html, body {
+             display: flex;
+             flex: 1;
+             flex-direction: column;
+             margin: 0;
+             padding: 0;
+         }
+         body {
+         }
+         header {
+             display: flex;
+             flex: 1;
+         }
+
+         header ul{
+             display: flex;
+             flex: 1;
+             flex-direction: row-reverse;
+             list-style: none;
+             margin-right: 50px;
+         }
+         header ul li{
+             display: flex;
+             padding: 5px;
+         }
+
+         div.container {
+             display: flex;
+             flex: 8;
+             flex-direction: column;
+             flex-flow: column;
+             justify-content: flex-end;
+             align-items: center;
+             background-image: url(assets/img/carbon_fibre.png);
+         }
+
+         div.container button.cta {
+             padding: 20px;
+             display: flex;
+             }
+
+         footer {
+             display: flex;
+             flex: 1;
+             background: black;
+             color: #fff;
+             align-items: center;
+             text-align: center;
+         }
+         footer p {
+             text-align: center;
+             margin-bottom: 10px;
+
+         }
+
 
         </style>
     </head>
@@ -9,16 +64,18 @@
         <header>
             <ul>
                 <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
             </ul>
         </header>
         <div class="container">
-            <h1>One point solution for all Industry needs</h1>
-            <h4>Coming Soon</h4>
+            <h1>One stop solution for all Industry needs</h1>
+            <p>
+                <a href="">
+                    <button class="cta">Register as a Supplier</button>
+                </a>
+            </p>
         </div>
         <footer>
-            <p>&:copy IndustryRider</p>
+            <p>IndustryRider</p>
         </footer>
     </body>
 </html>
